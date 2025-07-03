@@ -235,7 +235,7 @@
                 { id: 8, name: 'Hadros', teamId: 2, goals: 4, assists: 2, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 8, name: 'GABO', teamId: 4, goals: 2, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 8, name: 'Shuzky', teamId: 2, goals: 2, assists: 2, cleanSheets: 0, yellowCards: 0, redCards: 0 },
-                { id: 8, name: 'MalatyanınSahibi', teamId: 3, goals: 2, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
+                { id: 8, name: 'MalatyanınSahibi', teamId: 2, goals: 3, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 8, name: 'Ataalp', teamId: 4, goals: 2, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 8, name: 'Sweix', teamId: 2, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 8, name: 'Blair', teamId: 4, goals: 1, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
