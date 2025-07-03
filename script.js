@@ -46,7 +46,7 @@
 
 
             const season3FixturesData = [
-                { week: 1, homeTeamId: 1, awayTeamId: 5, homeScore: null, awayScore: null, status: 'Oynanmadı', date: '03.07.2025' }, //shakhtar 1 nankatsu 2 napoli 3 pndik 4 samsun 5 cankırı 6 
+                { week: 1, homeTeamId: 1, awayTeamId: 5, homeScore: 10, awayScore: 5, status: 'Oynandı', date: '03.07.2025' }, //shakhtar 1 nankatsu 2 napoli 3 pndik 4 samsun 5 cankırı 6 
                 { week: 1, homeTeamId: 6, awayTeamId: 3, homeScore: null, awayScore: null, status: 'Oynanmadı' ,date: '03.07.2025' },
                 { week: 1, homeTeamId: 2, awayTeamId: 4, homeScore: null, awayScore: null, status: 'Oynanmadı' ,date: '03.07.2025' },
                 { week: 2, homeTeamId: 5, awayTeamId: 4, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
