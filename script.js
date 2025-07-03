@@ -47,7 +47,7 @@
 
             const season3FixturesData = [
                 { week: 1, homeTeamId: 1, awayTeamId: 5, homeScore: null, awayScore: null, status: 'Oynanmadı', date: '03.07.2025' }, //shakhtar 1 nankatsu 2 napoli 3 pndik 4 samsun 5 cankırı 6 
-                { week: 1, homeTeamId: 6, awayTeamId: 3, homeScore: 34, awayScore: 1, status: 'Oynandı' ,date: '03.07.2025' },
+                { week: 1, homeTeamId: 6, awayTeamId: 3, homeScore: 31, awayScore: 1, status: 'Oynandı' ,date: '03.07.2025' },
                 { week: 1, homeTeamId: 2, awayTeamId: 4, homeScore: 10, awayScore: 5, status: 'Oynandı' ,date: '03.07.2025' },
                 { week: 2, homeTeamId: 5, awayTeamId: 4, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
                 { week: 2, homeTeamId: 3, awayTeamId: 2, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
@@ -239,7 +239,7 @@
                 { id: 12, name: 'Ataalp', teamId: 4, goals: 2, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 13, name: 'Sweix', teamId: 2, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 14, name: 'Blair', teamId: 4, goals: 1, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
-                { id: 16, name: 'Dokungaç', teamId: 2, goals: 12, assists: 2, cleanSheets: 0, yellowCards: 0, redCards: 0 },
+                { id: 16, name: 'Dokungaç', teamId: 6, goals: 12, assists: 2, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 17, name: 'Tuna', teamId: 6, goals: 7, assists: 6, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 18, name: 'Sabo', teamId: 6, goals: 2, assists: 2, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 19, name: 'Asta', teamId: 6, goals: 2, assists: 4, cleanSheets: 0, yellowCards: 0, redCards: 0 },
