@@ -46,7 +46,7 @@
 
 
             const season3FixturesData = [
-                { week: 1, homeTeamId: 1, awayTeamId: 5, homeScore: null, awayScore: null, status: 'Oynanmadı', date: '03.07.2025' }, //shakhtar 1 nankatsu 2 napoli 3 pndik 4 samsun 5 cankırı 6 
+                { week: 1, homeTeamId: 1, awayTeamId: 5, homeScore: 5, awayScore: 5, status: 'Oynandı', date: '03.07.2025' }, //shakhtar 1 nankatsu 2 napoli 3 pndik 4 samsun 5 cankırı 6 
                 { week: 1, homeTeamId: 6, awayTeamId: 3, homeScore: 31, awayScore: 1, status: 'Oynandı' ,date: '03.07.2025' },
                 { week: 1, homeTeamId: 2, awayTeamId: 4, homeScore: 10, awayScore: 5, status: 'Oynandı' ,date: '03.07.2025' },
                 { week: 2, homeTeamId: 5, awayTeamId: 4, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
@@ -225,10 +225,10 @@
                 { id: 39, name: 'Shuzky', teamId: 2, goals: 20, assists: 8, cleanSheets: 0, yellowCards: 0, redCards: 0}    
                 ];
                 const season3PlayerStats = [
-                { id: 1, name: 'Beltran', teamId: 1, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0,},
+                { id: 1, name: 'Beltran', teamId: 1, goals: 3, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0,},
                 { id: 2, name: 'Firikinuks', teamId: 6, goals: 3, assists: 4, cleanSheets: 1, yellowCards: 0, redCards: 0,},
                 { id: 3, name: 'German', teamId: 5, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
-                { id: 4, name: 'Dodo', teamId: 1, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
+                { id: 4, name: 'Dodo', teamId: 1, goals: 1, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 5, name: 'Bahamonde', teamId: 4, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 6, name: 'Waffle', teamId: 2, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 1, suspension: {reason: "Sanal mafyalarla ilişki kurmak", bannedWeek: 6}},
                 { id: 7, name: 'Butto', teamId: 4, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0},
@@ -246,7 +246,12 @@
                 { id: 21, name: 'Algan', teamId: 6, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 22, name: 'Dwn1s', teamId: 3, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 23, name: 'Muleka', teamId: 3, goals: 1, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
-                { id: 24, name: 'Tolgacion', teamId: 3, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
+                { id: 24, name: 'Htcann', teamId: 3, goals: 0, assists: 3, cleanSheets: 0, yellowCards: 0, redCards: 0 },
+                { id: 25, name: 'Erdem', teamId: 1, goals: 1, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
+                { id: 26, name: 'Barış', teamId: 5, goals: 3, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
+                { id: 27, name: 'Jux', teamId: 5, goals: 1, assists: 1, cleanSheets: 0, yellowCards: 0, redCards: 0 },
+                { id: 28, name: 'Waffle', teamId: 5, goals: 1, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
+
 
                 ];
             
