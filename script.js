@@ -6,7 +6,7 @@
 
 
             const season1TeamsData = [
-                { id: 1, name: 'Çankırı İl Özel İdaresi', captain: 'Leroy Sane', players: [], budget:0, logo: 'https://tmssl.akamaized.net//images/wappen/head/69673.png?lm=1541550694' },
+                { id: 1, name: 'Çankırı İl Özel İdaresi', captain: 'Leroy Sane', players: [], budget:0, logo: 'img/2y.png' },
                 { id: 2, name: 'AOÇ Fenerkusen 23', captain: 'Xabi Alonso', players: [], budget: 0, logo: 'img/fenerkusen.png' },
                 { id: 3, name: 'Sokan Buruk FC', captain: 'Emre Akbaba', players: [], budget: 0, logo:'img/sokan.png' },
                 { id: 4, name: 'Seçkinler FC', captain: 'Guti Hernandez', players: [], budget: 0, logo:'img/seckin.png' },
@@ -49,8 +49,8 @@
                 { week: 1, homeTeamId: 1, awayTeamId: 5, homeScore: 5, awayScore: 5, status: 'Oynandı', date: '03.07.2025' }, //shakhtar 1 nankatsu 2 napoli 3 pndik 4 samsun 5 cankırı 6 
                 { week: 1, homeTeamId: 6, awayTeamId: 3, homeScore: 31, awayScore: 1, status: 'Oynandı' ,date: '03.07.2025' },
                 { week: 1, homeTeamId: 2, awayTeamId: 4, homeScore: 10, awayScore: 5, status: 'Oynandı' ,date: '03.07.2025' },
-                { week: 2, homeTeamId: 5, awayTeamId: 4, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
-                { week: 2, homeTeamId: 3, awayTeamId: 2, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+                { week: 2, homeTeamId: 5, awayTeamId: 4, homeScore: 3, awayScore: 14, status: 'Oynandı', date: 'Belirsiz' },
+                { week: 2, homeTeamId: 3, awayTeamId: 2, homeScore: 3, awayScore: 7, status: 'Oynandı', date: 'Belirsiz' },
                 { week: 2, homeTeamId: 1, awayTeamId: 6, homeScore: 2, awayScore: 1, status: 'Oynandı', date: 'Belirsiz' },
                 { week: 3, homeTeamId: 2, awayTeamId: 1, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
                 { week: 3, homeTeamId: 6, awayTeamId: 5, homeScore: null, awayScore: null, status: 'Oynanmadı' ,date: 'Belirsiz' },
@@ -230,15 +230,15 @@
                 { id: 3, name: 'German', teamId: 5, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 4, name: 'Dodo', teamId: 1, goals: 1, assists: 1, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 5, name: 'Bahamonde', teamId: 4, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
-                { id: 6, name: 'Waffle', teamId: 2, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 1, suspension: {reason: "Sanal mafyalarla ilişki kurmak", bannedWeek: 6}},
+                { id: 6, name: 'Waffle', teamId: 5, goals: 4, assists: 4, cleanSheets: 0, yellowCards: 0, redCards: 1, suspension: {reason: "Sanal mafyalarla ilişki kurmak", bannedWeek: 6}},
                 { id: 7, name: 'Butto', teamId: 4, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0},
-                { id: 8, name: 'Hadros', teamId: 2, goals: 4, assists: 2, cleanSheets: 0, yellowCards: 0, redCards: 0 },
-                { id: 9, name: 'GABO', teamId: 4, goals: 2, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
-                { id: 10, name: 'Shuzky', teamId: 2, goals: 2, assists: 2, cleanSheets: 0, yellowCards: 0, redCards: 0 },
+                { id: 8, name: 'Hadros', teamId: 2, goals: 6, assists: 3, cleanSheets: 0, yellowCards: 0, redCards: 0 },
+                { id: 9, name: 'GABO', teamId: 4, goals: 3, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
+                { id: 10, name: 'Shuzky', teamId: 2, goals: 3, assists: 2, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 11, name: 'MalatyanınSahibi', teamId: 2, goals: 3, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
-                { id: 12, name: 'Ataalp', teamId: 4, goals: 2, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
-                { id: 13, name: 'Sweix', teamId: 2, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
-                { id: 14, name: 'Blair', teamId: 4, goals: 1, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
+                { id: 12, name: 'Ataalp', teamId: 4, goals: 2, assists: 1, cleanSheets: 0, yellowCards: 0, redCards: 0 },
+                { id: 13, name: 'Sweix', teamId: 2, goals: 1, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
+                { id: 14, name: 'Blair', teamId: 4, goals: 1, assists: 1, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 16, name: 'Dokungaç', teamId: 6, goals: 12, assists: 2, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 17, name: 'Tuna', teamId: 6, goals: 7, assists: 6, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 18, name: 'Sabo', teamId: 6, goals: 2, assists: 2, cleanSheets: 0, yellowCards: 0, redCards: 0 },
@@ -248,9 +248,15 @@
                 { id: 23, name: 'Muleka', teamId: 3, goals: 1, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 24, name: 'Htcann', teamId: 1, goals: 1, assists: 3, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 25, name: 'Erdem', teamId: 1, goals: 1, assists: 0, cleanSheets: 1, yellowCards: 0, redCards: 0 },
-                { id: 26, name: 'Barış', teamId: 5, goals: 3, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
+                { id: 26, name: 'Barış', teamId: 5, goals: 8, assists: 4, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 27, name: 'Jux', teamId: 5, goals: 1, assists: 1, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 28, name: 'Waffle', teamId: 5, goals: 1, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
+                { id: 30, name: 'Ackie', teamId: 3, goals: 1, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
+                { id: 31, name: 'Zwario', teamId: 2, goals: 0, assists: 0, cleanSheets: 1, yellowCards: 0, redCards: 0 },
+                { id: 32, name: 'Dwn1s', teamId: 3, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
+                { id: 33, name: 'Deccalfying', teamId: 5, goals: 4, assists: 1, cleanSheets: 0, yellowCards: 0, redCards: 0 },
+                { id: 33, name: 'Waldy', teamId: 5, goals: 1, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
+                { id: 33, name: 'Blair', teamId: 4, goals: 0, assists: 1, cleanSheets: 0, yellowCards: 0, redCards: 0 }
 
 
                 ];
