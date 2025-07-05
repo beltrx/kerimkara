@@ -225,10 +225,10 @@
                 { id: 39, name: 'Shuzky', teamId: 2, goals: 20, assists: 8, cleanSheets: 0, yellowCards: 0, redCards: 0}    
                 ];
                 const season3PlayerStats = [
-                { id: 1, name: 'Beltran', teamId: 1, goals: 3, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0,},
-                { id: 2, name: 'Firikinuks', teamId: 6, goals: 3, assists: 4, cleanSheets: 1, yellowCards: 0, redCards: 0,},
+                { id: 1, name: 'Beltran', teamId: 1, goals: 4, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0,},
+                { id: 2, name: 'Firikinuks', teamId: 6, goals: 3, assists: 4, cleanSheets: 2, yellowCards: 0, redCards: 0,},
                 { id: 3, name: 'German', teamId: 5, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
-                { id: 4, name: 'Dodo', teamId: 1, goals: 1, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
+                { id: 4, name: 'Dodo', teamId: 1, goals: 1, assists: 1, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 5, name: 'Bahamonde', teamId: 4, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 6, name: 'Waffle', teamId: 2, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 1, suspension: {reason: "Sanal mafyalarla ilişki kurmak", bannedWeek: 6}},
                 { id: 7, name: 'Butto', teamId: 4, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0},
@@ -246,8 +246,8 @@
                 { id: 21, name: 'Algan', teamId: 6, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 22, name: 'Dwn1s', teamId: 3, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 23, name: 'Muleka', teamId: 3, goals: 1, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
-                { id: 24, name: 'Htcann', teamId: 3, goals: 0, assists: 3, cleanSheets: 0, yellowCards: 0, redCards: 0 },
-                { id: 25, name: 'Erdem', teamId: 1, goals: 1, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
+                { id: 24, name: 'Htcann', teamId: 1, goals: 1, assists: 3, cleanSheets: 0, yellowCards: 0, redCards: 0 },
+                { id: 25, name: 'Erdem', teamId: 1, goals: 1, assists: 0, cleanSheets: 1, yellowCards: 0, redCards: 0 },
                 { id: 26, name: 'Barış', teamId: 5, goals: 3, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 27, name: 'Jux', teamId: 5, goals: 1, assists: 1, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 28, name: 'Waffle', teamId: 5, goals: 1, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
