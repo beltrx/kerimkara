@@ -51,7 +51,7 @@
                 { week: 1, homeTeamId: 2, awayTeamId: 4, homeScore: 10, awayScore: 5, status: 'Oynandı' ,date: '03.07.2025' },
                 { week: 2, homeTeamId: 5, awayTeamId: 4, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
                 { week: 2, homeTeamId: 3, awayTeamId: 2, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
-                { week: 2, homeTeamId: 1, awayTeamId: 6, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+                { week: 2, homeTeamId: 1, awayTeamId: 6, homeScore: 2, awayScore: 1, status: 'Oynandı', date: 'Belirsiz' },
                 { week: 3, homeTeamId: 2, awayTeamId: 1, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
                 { week: 3, homeTeamId: 6, awayTeamId: 5, homeScore: null, awayScore: null, status: 'Oynanmadı' ,date: 'Belirsiz' },
                 { week: 3, homeTeamId: 3, awayTeamId: 4, homeScore: null, awayScore: null, status: 'Oynanmadı' ,date: 'Belirsiz' },
