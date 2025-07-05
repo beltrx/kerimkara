@@ -23,11 +23,11 @@
             ];
             const season3TeamsData = [
                 { id: 1, name: 'Shakhtar Donetsk', captain: 'Beltran', players: ['Dodo','Erdem','HtcaNN','Efe Çetin'], budget:18, logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/a/a1/FC_Shakhtar_Donetsk.svg/1200px-FC_Shakhtar_Donetsk.svg.png' },
-                { id: 2, name: 'Nankatsu SC', captain: 'Shuzky', players: ['Escombros','Hadros','Okowa','Sweix'], budget: 70, logo: 'img/nankatsu.png' },
-                { id: 3, name: 'SSC Napoli', captain: 'Elkeson', players: ['Hektör','Muleka','Tolgacion','Tolgamer','Tüpraşçı Sebo'], budget: 0, logo:'https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/SSC_Napoli.svg/2048px-SSC_Napoli.svg.png' },
+                { id: 2, name: 'Nankatsu SC', captain: 'Shuzky', players: ['Escombros','Hadros','Okowa','Sweix'], budget: 10, logo: 'img/nankatsu.png' },
+                { id: 3, name: 'SSC Napoli', captain: 'Elkeson', players: ['Hektör','Muleka','Tolgacion','Tolgamer','Tüpraşçı Sebo'], budget: -50, logo:'https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/SSC_Napoli.svg/2048px-SSC_Napoli.svg.png' },
                 { id: 4, name: 'İlave TV Pendikspor', captain: 'Butto', players: ['Ataalp','Blair','Gabo','Kızıl Çehreli'], budget: 360, logo:'https://upload.wikimedia.org/wikipedia/tr/2/2e/Pendikspor.png' },
                 { id: 5, name: 'Samsun SF', captain: 'Waldy', players: ['Seall','Waffle','Jux','Egehenry'], budget: 18, logo: 'https://upload.wikimedia.org/wikipedia/tr/d/d0/Samsunspor_Kul%C3%BCb%C3%BC_Logosu.png' },
-                { id: 6, name: 'Çankırı İl Özel İdaresi', captain: 'Krakiler', players: ['Algan','Asta','Dokungaç','Dwn1s','Firikinuks','Sabo'], budget:119, logo: 'https://tmssl.akamaized.net//images/wappen/head/69673.png?lm=1541550694' }
+                { id: 6, name: 'Çankırı İl Özel İdaresi', captain: 'Krakiler', players: ['Algan','Asta','Dokungaç','Dwn1s','Firikinuks','Sabo'], budget:119, logo: 'img/2y.png' }
             ];
 
             const eurocup23TeamsData = [
@@ -49,7 +49,7 @@
                 { week: 1, homeTeamId: 1, awayTeamId: 5, homeScore: 5, awayScore: 5, status: 'Oynandı', date: '03.07.2025' }, //shakhtar 1 nankatsu 2 napoli 3 pndik 4 samsun 5 cankırı 6 
                 { week: 1, homeTeamId: 6, awayTeamId: 3, homeScore: 31, awayScore: 1, status: 'Oynandı' ,date: '03.07.2025' },
                 { week: 1, homeTeamId: 2, awayTeamId: 4, homeScore: 10, awayScore: 5, status: 'Oynandı' ,date: '03.07.2025' },
-                { week: 2, homeTeamId: 5, awayTeamId: 4, homeScore: 3, awayScore: 14, status: 'Oynandı', date: 'Belirsiz' },
+                { week: 2, homeTeamId: 5, awayTeamId: 4, homeScore: 14, awayScore: 3, status: 'Oynandı', date: 'Belirsiz' },
                 { week: 2, homeTeamId: 3, awayTeamId: 2, homeScore: 3, awayScore: 7, status: 'Oynandı', date: 'Belirsiz' },
                 { week: 2, homeTeamId: 1, awayTeamId: 6, homeScore: 2, awayScore: 1, status: 'Oynandı', date: 'Belirsiz' },
                 { week: 3, homeTeamId: 2, awayTeamId: 1, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
