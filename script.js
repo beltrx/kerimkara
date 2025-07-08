@@ -52,7 +52,7 @@
                 { week: 2, homeTeamId: 5, awayTeamId: 4, homeScore: 14, awayScore: 3, status: 'Oynandı', date: 'Belirsiz' },
                 { week: 2, homeTeamId: 3, awayTeamId: 2, homeScore: 3, awayScore: 7, status: 'Oynandı', date: 'Belirsiz' },
                 { week: 2, homeTeamId: 1, awayTeamId: 6, homeScore: 2, awayScore: 1, status: 'Oynandı', date: 'Belirsiz' },
-                { week: 3, homeTeamId: 2, awayTeamId: 1, homeScore: 0, awayScore: 2, status: 'Oynandı', date: 'Belirsiz' },
+                { week: 3, homeTeamId: 2, awayTeamId: 1, homeScore: 2, awayScore: 0, status: 'Oynandı', date: 'Belirsiz' },
                 { week: 3, homeTeamId: 6, awayTeamId: 5, homeScore: 2, awayScore: 2, status: 'Oynandı' ,date: 'Belirsiz' },
                 { week: 3, homeTeamId: 3, awayTeamId: 4, homeScore: 4, awayScore: 4, status: 'Oynandı' ,date: 'Belirsiz' },
                 { week: 4, homeTeamId: 6, awayTeamId: 2, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
