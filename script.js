@@ -257,10 +257,10 @@
                 { id: 34, name: 'Deccalfying', teamId: 5, goals: 4, assists: 1, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 35, name: 'Waldy', teamId: 5, goals: 1, assists: 0, cleanSheets: 1, yellowCards: 0, redCards: 0 },
                 { id: 36, name: 'Blair', teamId: 4, goals: 0, assists: 1, cleanSheets: 0, yellowCards: 0, redCards: 0 },
-                { id: 37, name: 'Pavi', teamId: 4, goals: 1, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
-                { id: 38, name: 'Mssygt', teamId: 4, goals: 1, assists: 2 , cleanSheets: 0, yellowCards: 0, redCards: 0 },
-                { id: 39, name: 'Garcia', teamId: 3, goals: 0, assists: 2, cleanSheets: 0, yellowCards: 0, redCards: 0 },
-                { id: 40, name: 'Ahahacik', teamId: 3, goals: 0, assists: 1, cleanSheets: 0, yellowCards: 0, redCards: 0 },
+                { id: 37, name: 'Pavi', teamId: 3, goals: 1, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
+                { id: 38, name: 'Mssygt', teamId: 3, goals: 1, assists: 2 , cleanSheets: 0, yellowCards: 0, redCards: 0 },
+                { id: 39, name: 'Garcia', teamId: 4, goals: 0, assists: 2, cleanSheets: 0, yellowCards: 0, redCards: 0 },
+                { id: 40, name: 'Ahahacik', teamId: 4, goals: 0, assists: 1, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 40, name: 'Forzz', teamId: 6, goals: 1, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
 
 
