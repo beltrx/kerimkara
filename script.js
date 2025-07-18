@@ -226,7 +226,7 @@
                 ];
                 const season3PlayerStats = [
                 { id: 1, name: 'Beltran', teamId: 1, goals: 12, assists: 9, cleanSheets: 0, yellowCards: 0, redCards: 0,},
-                { id: 2, name: 'Firikinuks', teamId: 6, goals: 3, assists: 5, cleanSheets: 4, yellowCards: 0, redCards: 0,},
+                { id: 2, name: 'Firikinuks', teamId: 6, goals: 3, assists: 5, cleanSheets: 6, yellowCards: 0, redCards: 0,},
                 { id: 3, name: 'German', teamId: 5, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 4, name: 'Dodo', teamId: 1, goals: 1, assists: 1, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 5, name: 'Bahamonde', teamId: 4, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
@@ -247,7 +247,7 @@
                 { id: 21, name: 'Algan', teamId: 6, goals: 2, assists: 2, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 22, name: 'Dwn1s', teamId: 3, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 23, name: 'Muleka', teamId: 2, goals: 2, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
-                { id: 24, name: 'Htcann', teamId: 1, goals: 7, assists: 3, cleanSheets: 0, yellowCards: 0, redCards: 0 },
+                { id: 24, name: 'Htcann', teamId: 1, goals: 7, assists: 3, cleanSheets: 2, yellowCards: 0, redCards: 0 },
                 { id: 25, name: 'Erdem', teamId: 1, goals: 3, assists: 0, cleanSheets: 3, yellowCards: 0, redCards: 0 },
                 { id: 26, name: 'Barış', teamId: 5, goals: 8, assists: 4, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 27, name: 'Jux', teamId: 5, goals: 1, assists: 1, cleanSheets: 0, yellowCards: 0, redCards: 0 },
