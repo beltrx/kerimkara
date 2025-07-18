@@ -240,7 +240,7 @@
                 { id: 12, name: 'Ataalp', teamId: 4, goals: 8 , assists: 3, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 13, name: 'Sweix', teamId: 2, goals: 3, assists: 1, cleanSheets: 2, yellowCards: 0, redCards: 0 },
                 { id: 14, name: 'Blair', teamId: 4, goals: 1, assists: 3, cleanSheets: 0, yellowCards: 0, redCards: 0 },
-                { id: 16, name: 'Dokungaç', teamId: 4, goals: 20, assists: 6, cleanSheets: 0, yellowCards: 0, redCards: 0 },
+                { id: 16, name: 'Dokungaç', teamId: 3, goals: 20, assists: 6, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 17, name: 'Tuna', teamId: 6, goals: 12, assists: 8, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 18, name: 'Sabo', teamId: 6, goals: 2, assists: 3, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 19, name: 'Asta', teamId: 6, goals: 2, assists: 4, cleanSheets: 0, yellowCards: 0, redCards: 0 },
