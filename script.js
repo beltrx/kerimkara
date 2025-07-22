@@ -225,29 +225,29 @@
                 { id: 39, name: 'Shuzky', teamId: 2, goals: 20, assists: 8, cleanSheets: 0, yellowCards: 0, redCards: 0}    
                 ];
                 const season3PlayerStats = [
-                { id: 1, name: 'Beltran', teamId: 1, goals: 12, assists: 9, cleanSheets: 0, yellowCards: 0, redCards: 0,},
-                { id: 2, name: 'Firikinuks', teamId: 6, goals: 3, assists: 5, cleanSheets: 7, yellowCards: 0, redCards: 0,},
+                { id: 1, name: 'Beltran', teamId: 1, goals: 15, assists: 10, cleanSheets: 0, yellowCards: 0, redCards: 0,},
+                { id: 2, name: 'Firikinuks', teamId: 6, goals: 3, assists: 5, cleanSheets: 8, yellowCards: 0, redCards: 0,},
                 { id: 3, name: 'German', teamId: 5, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 4, name: 'Dodo', teamId: 1, goals: 1, assists: 1, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 5, name: 'Bahamonde', teamId: 4, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 6, name: 'Waffle', teamId: 5, goals: 12, assists: 7, cleanSheets: 0, yellowCards: 0, redCards: 1, suspension: {reason: "Test", bannedWeek: 6}},
                 { id: 45, name: 'Ernest', teamId: 5, goals: 3, assists: 1, cleanSheets: 0, yellowCards: 0, redCards: 0},
                 { id: 7, name: 'Butto', teamId: 4, goals: 6, assists: 0, cleanSheets: 1, yellowCards: 0, redCards: 0},
-                { id: 8, name: 'Hadros', teamId: 2, goals: 14, assists: 3, cleanSheets: 0, yellowCards: 0, redCards: 0 },
+                { id: 8, name: 'Hadros', teamId: 2, goals: 14, assists: 4, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 9, name: 'GABO', teamId: 4, goals: 3, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 10, name: 'Shuzky', teamId: 2, goals: 6, assists: 5, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 11, name: 'MalatyanınSahibi', teamId: 2, goals: 3, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 12, name: 'Ataalp', teamId: 4, goals: 9 , assists: 4, cleanSheets: 0, yellowCards: 0, redCards: 0 },
-                { id: 13, name: 'Sweix', teamId: 2, goals: 3, assists: 1, cleanSheets: 2, yellowCards: 0, redCards: 0 },
+                { id: 13, name: 'Sweix', teamId: 2, goals: 4, assists: 1, cleanSheets: 2, yellowCards: 0, redCards: 0 },
                 { id: 14, name: 'Blair', teamId: 4, goals: 1, assists: 3, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 16, name: 'Dokungaç', teamId: 3, goals: 20, assists: 8, cleanSheets: 0, yellowCards: 0, redCards: 0 },
-                { id: 17, name: 'Tuna', teamId: 6, goals: 13, assists: 10, cleanSheets: 0, yellowCards: 0, redCards: 0 },
+                { id: 17, name: 'Tuna', teamId: 6, goals: 14, assists: 11, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 18, name: 'Sabo', teamId: 6, goals: 2, assists: 3, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 19, name: 'Asta', teamId: 6, goals: 2, assists: 4, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 21, name: 'Algan', teamId: 6, goals: 4, assists: 2, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 22, name: 'Dwn1s', teamId: 3, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 23, name: 'Muleka', teamId: 2, goals: 2, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
-                { id: 24, name: 'Htcann', teamId: 1, goals: 7, assists: 3, cleanSheets: 2, yellowCards: 0, redCards: 0 },
+                { id: 24, name: 'Htcann', teamId: 1, goals: 7, assists: 5, cleanSheets: 2, yellowCards: 0, redCards: 0 },
                 { id: 25, name: 'Erdem', teamId: 1, goals: 3, assists: 0, cleanSheets: 3, yellowCards: 0, redCards: 0 },
                 { id: 26, name: 'Barış', teamId: 5, goals: 8, assists: 4, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 27, name: 'Jux', teamId: 5, goals: 1, assists: 1, cleanSheets: 0, yellowCards: 0, redCards: 0 },
@@ -268,6 +268,11 @@
                 { id: 44, name: 'Forzz', teamId: 6, goals: 5, assists: 3, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 44, name: 'Salvord', teamId: 4, goals: 0, assists: 3, cleanSheets: 0, yellowCards: 0, redCards: 0 },
                 { id: 44, name: 'Possi 54', teamId: 4, goals: 3, assists: 3, cleanSheets: 0, yellowCards: 0, redCards: 0 },
+                { id: 44, name: 'Reco', teamId: 6, goals: 1, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0 },
+                { id: 46, name: 'Tolgamer', teamId: 1, goals: 1, assists: 1, cleanSheets: 1, yellowCards: 0, redCards: 0 },
+                { id: 46, name: 'Felipe', teamId: 1, goals: 4, assists: 2, cleanSheets: 1, yellowCards: 0, redCards: 0 }
+
+
 
 
                 ];
