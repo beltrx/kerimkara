@@ -44,6 +44,14 @@
                 { id: 4, name: 'Malta', captain: 'John', players: ['Player G', 'Player H'], logo: 'https://images.emojiterra.com/google/noto-emoji/unicode-16.0/color/svg/1f1f2-1f1f9.svg',},
             ];
 
+            const eurocup25TeamsData = [
+                { id: 1, name: 'Kazakistan', captain: 'Anastasios Bakasetas', players: ['Player A', 'Player B'], logo: 'https://images.emojiterra.com/google/noto-emoji/unicode-16.0/color/svg/1f1f0-1f1ff.svg',},
+                { id: 2, name: 'Grönland', captain: 'Ryan Kent', players: ['Player C', 'Player D'], logo: 'https://images.emojiterra.com/google/noto-emoji/unicode-16.0/color/svg/1f1ec-1f1f1.svg',},
+                { id: 3, name: 'Almanya', captain: 'Carlos', players: ['Player E', 'Player F'], logo: 'https://images.emojiterra.com/google/noto-emoji/unicode-16.0/color/svg/1f1e9-1f1ea.svg', },
+                { id: 4, name: 'İspanya', captain: 'John', players: ['Player G', 'Player H'], logo: 'https://images.emojiterra.com/google/noto-emoji/unicode-15/color/512px/1f1ea-1f1f8.png',},
+                { id: 5, name: 'Fildişi Sahilleri', captain: 'John', players: ['Player G', 'Player H'], logo: 'https://images.emojiterra.com/google/noto-emoji/unicode-16.0/color/svg/1f1e8-1f1ee.svg',}
+            ];
+
 
             const season3FixturesData = [
                 { week: 1, homeTeamId: 1, awayTeamId: 5, homeScore: 5, awayScore: 5, status: 'Oynandı', date: '03.07.2025' }, //shakhtar 1 nankatsu 2 napoli 3 pndik 4 samsun 5 cankırı 6 
@@ -149,6 +157,13 @@
                 { stageId: 1, week: 1, homeTeamId: 1, awayTeamId: 4, homeScore: 17, awayScore: 1, status: 'Oynandı'},
                 { stageId: 2, week: 2, homeTeamId: 1, awayTeamId: 2, homeScore: 1, awayScore: 2, status: 'Oynandı', date:'29.06.2025'},
                 { stageId: 3, week: 2, homeTeamId: 4, awayTeamId: 3, homeScore: 13, awayScore: 1, status: 'Oynandı', date:'29.06.2025' }
+                
+                ];
+                const eurocup25FixturesData = [
+                { stageId: 1, week: 1, homeTeamId: 1, awayTeamId: 2, homeScore: null, awayScore: null, status: 'Oynanmadı',date: '' },
+                { stageId: 3, week: 1, homeTeamId: 3, awayTeamId: null, homeScore: null, awayScore: null, status: 'Oynanmadı'},
+                { stageId: 3, week: 2, homeTeamId: 4, awayTeamId: 5, homeScore: null, awayScore: null, status: 'Oynanmadı', date:''},
+                { stageId: 2, week: 2, homeTeamId: null, awayTeamId: null, homeScore: null, awayScore: null, status: 'Oynanmadı', date:'' }
                 
                 ];
                  const season1PlayerStats = [
@@ -667,85 +682,105 @@
         }
     }
 
-           function displayEurocupFixtures() {
-            const container = document.getElementById('eurocup-fixtures-container');
-            container.innerHTML = '';
+          function displayEurocupFixtures() {
+    const container = document.getElementById('eurocup-fixtures-container');
+    container.innerHTML = '';
 
-            const season = document.getElementById('seasonSelectEurocup').value;
+    const season = document.getElementById('seasonSelectEurocup').value;
 
-            let fixturesData, teamsData;
+    let fixturesData, teamsData;
 
-            if (season === '1') {
-                fixturesData = eurocup23FixturesData;
-                teamsData = eurocup23TeamsData;
+    if (season === '1') {
+        fixturesData = eurocup23FixturesData;
+        teamsData = eurocup23TeamsData;
+    } else if (season === '2') {
+        fixturesData = eurocup24FixturesData;
+        teamsData = eurocup24TeamsData;
+    } else { 
+        // Bu blok 3. sezonu ('eurocup25') çalıştırır.
+        fixturesData = eurocup25FixturesData;
+        teamsData = eurocup25TeamsData;
+    }
+
+    // --- YENİ EKLENEN KOŞULLU BLOK ---
+    let stageNames;
+
+    // Eğer 3. sezon seçiliyse, başlıkları değiştir.
+    // SELECT menüsündeki 3. sezonun value'sunun '3' olduğunu varsayıyoruz.
+    if (season === '3') { 
+        stageNames = {
+            1: 'Ön Eleme', // <-- Buradaki isimleri istediğiniz gibi değiştirebilirsiniz
+            3: 'Yarı Final', // <-- Buradaki isimleri istediğiniz gibi değiştirebilirsiniz
+            2: 'Final' // <-- Buradaki isimleri istediğiniz gibi değiştirebilirsiniz
+        };
+    } else {
+        // 1. ve 2. sezonlar için varsayılan başlıklar
+        stageNames = {
+            1: 'Yarı Final',
+            3: '3.’lük Maçı',
+            2: 'Final'
+        };
+    }
+    // --- DEĞİŞİKLİK SONU ---
+
+    const groupedByStage = fixturesData.reduce((acc, fixture) => {
+        acc[fixture.stageId] = acc[fixture.stageId] || [];
+        acc[fixture.stageId].push(fixture);
+        return acc;
+    }, {});
+
+    const stagesOrder = [1, 3, 2];
+
+    stagesOrder.forEach(stageId => {
+        if (!groupedByStage[stageId]) return;
+
+        const stageContainer = document.createElement('div');
+        stageContainer.className = 'bg-gray-800 p-4 sm:p-6 rounded-xl shadow-lg border border-gray-700 max-w-2xl mx-auto mt-6';
+
+        const stageTitle = document.createElement('h3');
+        stageTitle.className = 'text-lg sm:text-xl font-bold text-white mb-4 border-b border-blue-600 pb-2';
+        // stageNames artık dinamik olarak belirlendiği için bu satır doğru çalışacaktır.
+        stageTitle.textContent = stageNames[stageId] || 'Maçlar';
+        stageContainer.appendChild(stageTitle);
+
+        groupedByStage[stageId].forEach(fixture => {
+            const homeTeam = teamsData.find(t => t.id === fixture.homeTeamId);
+            const awayTeam = teamsData.find(t => t.id === fixture.awayTeamId);
+
+            const fixtureElement = document.createElement('div');
+            fixtureElement.className = 'flex items-center justify-between p-2 sm:p-3 rounded-md hover:bg-gray-700/50';
+
+            let scoreDisplay;
+            if (fixture.status === 'Oynandı') {
+                scoreDisplay = `
+                    <span class="font-bold text-lg sm:text-xl px-2 py-1 rounded-md bg-blue-600 text-white">${fixture.homeScore}</span>
+                    <span class="font-bold text-gray-400 mx-3.25">-</span>
+                    <span class="font-bold text-lg sm:text-xl px-2 py-1 rounded-md bg-blue-600 text-white">${fixture.awayScore}</span>
+                `;
             } else {
-                fixturesData = eurocup24FixturesData;
-                teamsData = eurocup24TeamsData;
+                scoreDisplay = `<span class="text-xs sm:text-sm text-gray-400">${fixture.date || 'Tarih yok'}</span>`;
             }
 
-            const stageNames = {
-                1: 'Yarı Final',
-                3: '3.’lük Maçı',
-                2: 'Final'
-            };
+            fixtureElement.innerHTML = `
+                <div class="flex items-center gap-2 sm:gap-3 text-right justify-end w-2/5 min-w-0">
+                    <span class="font-semibold text-white truncate">${homeTeam ? homeTeam.name : 'Belirlenmedi'}</span>
+                    <img src="${homeTeam ? homeTeam.logo : 'https://images.emojiterra.com/google/noto-emoji/unicode-16.0/color/svg/1f3f3.svg'}" class="w-6 h-6 sm:w-8 sm:h-8 object-contain rounded" />
+                </div>
+                <div class="w-[24%] text-center flex items-center justify-center">
+                    ${scoreDisplay}
+                </div>
+                <div class="flex items-center gap-2 sm:gap-3 w-2/5 min-w-0">
+                    <img src="${awayTeam ? awayTeam.logo : 'https://images.emojiterra.com/google/noto-emoji/unicode-16.0/color/svg/1f3f3.svg'}" class="w-6 h-6 sm:w-8 sm:h-8 object-contain rounded" />
+                    <span class="font-semibold text-white truncate">${awayTeam ? awayTeam.name : 'Belirlenmedi'}</span>
+                </div>
+            `;
 
-            const groupedByStage = fixturesData.reduce((acc, fixture) => {
-                acc[fixture.stageId] = acc[fixture.stageId] || [];
-                acc[fixture.stageId].push(fixture);
-                return acc;
-            }, {});
+            stageContainer.appendChild(fixtureElement);
+        });
 
-            const stagesOrder = [1, 3, 2];
-
-            stagesOrder.forEach(stageId => {
-                if (!groupedByStage[stageId]) return;
-
-                const stageContainer = document.createElement('div');
-                stageContainer.className = 'bg-gray-800 p-4 sm:p-6 rounded-xl shadow-lg border border-gray-700 max-w-2xl mx-auto mt-6';
-
-                const stageTitle = document.createElement('h3');
-                stageTitle.className = 'text-lg sm:text-xl font-bold text-white mb-4 border-b border-blue-600 pb-2';
-                stageTitle.textContent = stageNames[stageId] || 'Maçlar';
-                stageContainer.appendChild(stageTitle);
-
-                groupedByStage[stageId].forEach(fixture => {
-                    const homeTeam = teamsData.find(t => t.id === fixture.homeTeamId);
-                    const awayTeam = teamsData.find(t => t.id === fixture.awayTeamId);
-
-                    const fixtureElement = document.createElement('div');
-                    fixtureElement.className = 'flex items-center justify-between p-2 sm:p-3 rounded-md hover:bg-gray-700/50';
-
-                    let scoreDisplay;
-                    if (fixture.status === 'Oynandı') {
-                        scoreDisplay = `
-                            <span class="font-bold text-lg sm:text-xl px-2 py-1 rounded-md bg-blue-600 text-white">${fixture.homeScore}</span>
-                            <span class="font-bold text-gray-400 mx-3.25">-</span>
-                            <span class="font-bold text-lg sm:text-xl px-2 py-1 rounded-md bg-blue-600 text-white">${fixture.awayScore}</span>
-                        `;
-                    } else {
-                        scoreDisplay = `<span class="text-xs sm:text-sm text-gray-400">${fixture.date || 'Tarih yok'}</span>`;
-                    }
-
-                    fixtureElement.innerHTML = `
-                        <div class="flex items-center gap-2 sm:gap-3 text-right justify-end w-2/5 min-w-0">
-                            <span class="font-semibold text-white truncate">${homeTeam ? homeTeam.name : 'Belirlenmedi'}</span>
-                            <img src="${homeTeam ? homeTeam.logo : 'https://images.emojiterra.com/google/noto-emoji/unicode-16.0/color/svg/1f3f3.svg'}" class="w-6 h-6 sm:w-8 sm:h-8 object-contain rounded" />
-                        </div>
-                        <div class="w-[24%] text-center flex items-center justify-center">
-                            ${scoreDisplay}
-                        </div>
-                        <div class="flex items-center gap-2 sm:gap-3 w-2/5 min-w-0">
-                            <img src="${awayTeam ? awayTeam.logo : 'https://images.emojiterra.com/google/noto-emoji/unicode-16.0/color/svg/1f3f3.svg'}" class="w-6 h-6 sm:w-8 sm:h-8 object-contain rounded" />
-                            <span class="font-semibold text-white truncate">${awayTeam ? awayTeam.name : 'Belirlenmedi'}</span>
-                        </div>
-                    `;
-
-                    stageContainer.appendChild(fixtureElement);
-                });
-
-                container.appendChild(stageContainer);
-            });
-        }
+        container.appendChild(stageContainer);
+    });
+}
 
 
 
