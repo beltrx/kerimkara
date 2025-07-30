@@ -13,7 +13,7 @@
                 { id: 5, name: 'Samsun SF', captain: 'Elkeson', players: [], budget: 0, logo: 'https://upload.wikimedia.org/wikipedia/tr/d/d0/Samsunspor_Kul%C3%BCb%C3%BC_Logosu.png' },
             ];
             const season2TeamsData = [
-                { id: 1, name: 'Çankırı İl Özel İdaresi', captain: 'Leroy Sane', players: [], budget:0, logo: 'https://tmssl.akamaized.net//images/wappen/head/69673.png?lm=1541550694' },
+                { id: 1, name: 'Çankırı İl Özel İdaresi', captain: 'Leroy Sane', players: [], budget:0, logo: 'img/2y.png' },
                 { id: 2, name: 'AOÇ Fenerkusen 23', captain: 'Xabi Alonso', players: [], budget: 0, logo: 'img/fenerkusen.png' },
                 { id: 3, name: 'Panathinaikos', captain: 'Raphinha', players: [], budget: 0, logo:'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Panathinaikos.svg/2048px-Panathinaikos.svg.png' },
                 { id: 4, name: 'Seçkinler FC', captain: 'Guti Hernandez', players: [], budget: 0, logo:'img/seckin.png' },
