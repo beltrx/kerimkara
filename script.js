@@ -160,8 +160,8 @@
                 
                 ];
                 const eurocup25FixturesData = [
-                { stageId: 1, week: 1, homeTeamId: 1, awayTeamId: 2, homeScore: null, awayScore: null, status: 'Oynanmadı',date: '' },
-                { stageId: 3, week: 1, homeTeamId: 3, awayTeamId: null, homeScore: null, awayScore: null, status: 'Oynanmadı'},
+                { stageId: 1, week: 1, homeTeamId: 1, awayTeamId: 2, homeScore: 3, awayScore: 4, status: 'Oynandı',date: '' },
+                { stageId: 3, week: 1, homeTeamId: 3, awayTeamId: 2, homeScore: null, awayScore: null, status: 'Oynanmadı'},
                 { stageId: 3, week: 2, homeTeamId: 4, awayTeamId: 5, homeScore: null, awayScore: null, status: 'Oynanmadı', date:''},
                 { stageId: 2, week: 2, homeTeamId: null, awayTeamId: null, homeScore: null, awayScore: null, status: 'Oynanmadı', date:'' }
                 
