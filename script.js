@@ -703,7 +703,7 @@
 
     let stageNames;
     if (season === '3') {
-        stageNames = { 1: 'Play-Off Yarı Final', 3: 'Play-Off 3.’lük Maçı', 2: 'Büyük Final' };
+        stageNames = { 1: 'Ön Eleme', 3: 'Yarı Final', 2: 'Final' };
     } else {
         stageNames = { 1: 'Yarı Final', 3: '3.’lük Maçı', 2: 'Final' };
     }
