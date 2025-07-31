@@ -161,9 +161,9 @@
                 ];
                 const eurocup25FixturesData = [
                 { stageId: 1, week: 1, homeTeamId: 1, awayTeamId: 2, homeScore: 3, awayScore: 4, status: 'Oynandı',date: '' },
-                { stageId: 3, week: 1, homeTeamId: 3, awayTeamId: 2, homeScore: null, awayScore: null, status: 'Oynanmadı'},
+                { stageId: 3, week: 1, homeTeamId: 3, awayTeamId: 2, homeScore: 1, awayScore: 6, status: 'Oynandı'},
                 { stageId: 3, week: 2, homeTeamId: 4, awayTeamId: 5, homeScore: 7, awayScore: 6, status: 'Oynandı', date:''},
-                { stageId: 2, week: 2, homeTeamId: null, awayTeamId: null, homeScore: null, awayScore: null, status: 'Oynanmadı', date:'' }
+                { stageId: 2, week: 2, homeTeamId: 4, awayTeamId: 2, homeScore: 4, awayScore: 4, status: 'Oynandı', date:'', extra: 'PEN: 5-4' }
                 
                 ];
                  const season1PlayerStats = [
@@ -696,32 +696,17 @@
     } else if (season === '2') {
         fixturesData = eurocup24FixturesData;
         teamsData = eurocup24TeamsData;
-    } else { 
-        // Bu blok 3. sezonu ('eurocup25') çalıştırır.
+    } else {
         fixturesData = eurocup25FixturesData;
         teamsData = eurocup25TeamsData;
     }
 
-    // --- YENİ EKLENEN KOŞULLU BLOK ---
     let stageNames;
-
-    // Eğer 3. sezon seçiliyse, başlıkları değiştir.
-    // SELECT menüsündeki 3. sezonun value'sunun '3' olduğunu varsayıyoruz.
-    if (season === '3') { 
-        stageNames = {
-            1: 'Ön Eleme', // <-- Buradaki isimleri istediğiniz gibi değiştirebilirsiniz
-            3: 'Yarı Final', // <-- Buradaki isimleri istediğiniz gibi değiştirebilirsiniz
-            2: 'Final' // <-- Buradaki isimleri istediğiniz gibi değiştirebilirsiniz
-        };
+    if (season === '3') {
+        stageNames = { 1: 'Play-Off Yarı Final', 3: 'Play-Off 3.’lük Maçı', 2: 'Büyük Final' };
     } else {
-        // 1. ve 2. sezonlar için varsayılan başlıklar
-        stageNames = {
-            1: 'Yarı Final',
-            3: '3.’lük Maçı',
-            2: 'Final'
-        };
+        stageNames = { 1: 'Yarı Final', 3: '3.’lük Maçı', 2: 'Final' };
     }
-    // --- DEĞİŞİKLİK SONU ---
 
     const groupedByStage = fixturesData.reduce((acc, fixture) => {
         acc[fixture.stageId] = acc[fixture.stageId] || [];
@@ -739,7 +724,6 @@
 
         const stageTitle = document.createElement('h3');
         stageTitle.className = 'text-lg sm:text-xl font-bold text-white mb-4 border-b border-blue-600 pb-2';
-        // stageNames artık dinamik olarak belirlendiği için bu satır doğru çalışacaktır.
         stageTitle.textContent = stageNames[stageId] || 'Maçlar';
         stageContainer.appendChild(stageTitle);
 
@@ -750,16 +734,34 @@
             const fixtureElement = document.createElement('div');
             fixtureElement.className = 'flex items-center justify-between p-2 sm:p-3 rounded-md hover:bg-gray-700/50';
 
+            // --- YENİ VE DAHA ESNEK MANTIK ---
             let scoreDisplay;
             if (fixture.status === 'Oynandı') {
-                scoreDisplay = `
+                // Ana skor görünümünü oluştur
+                let mainScore = `
                     <span class="font-bold text-lg sm:text-xl px-2 py-1 rounded-md bg-blue-600 text-white">${fixture.homeScore}</span>
                     <span class="font-bold text-gray-400 mx-3.25">-</span>
                     <span class="font-bold text-lg sm:text-xl px-2 py-1 rounded-md bg-blue-600 text-white">${fixture.awayScore}</span>
                 `;
+
+                // Penaltı veya başka bir not var mı diye kontrol et
+                if (fixture.extra) {
+                    // Varsa, ana skorun yanına notu ekle
+                    scoreDisplay = `
+                        <div class="flex flex-col sm:flex-row items-center gap-2 sm:gap-2">
+                            <div>${mainScore}</div>
+                            <span class="text-xs sm:text-sm text-gray-300 font-semibold">${fixture.extra}</span>
+                        </div>
+                    `;
+                } else {
+                    // Yoksa, sadece ana skoru kullan
+                    scoreDisplay = mainScore;
+                }
             } else {
+                // Oynanmamış maçlar için tarihi göster
                 scoreDisplay = `<span class="text-xs sm:text-sm text-gray-400">${fixture.date || 'Tarih yok'}</span>`;
             }
+            // --- MANTIK SONU ---
 
             fixtureElement.innerHTML = `
                 <div class="flex items-center gap-2 sm:gap-3 text-right justify-end w-2/5 min-w-0">
@@ -782,12 +784,7 @@
     });
 }
 
-
-
-
-
-            // --- TAKIMLARI GÖSTERME ---
-            function displayTeams() {
+ function displayTeams() {
                 const container = document.getElementById('teams-container');
                 container.innerHTML = '';
 
@@ -834,7 +831,7 @@
                 });
                 document.querySelector(selector)?.classList.add('active');
 
-                // Close mobile menu on navigation
+                // Close mobile menu on "naviga"tion
                 if (!mobileMenu.classList.contains('hidden')) {
                     mobileMenu.classList.add('hidden');
                 }
