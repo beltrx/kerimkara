@@ -29,6 +29,17 @@
                 { id: 5, name: 'Samsun SF', captain: 'Waldy', players: ['Seall','Waffle','Jux','Egehenry'], budget: 18, logo: 'https://upload.wikimedia.org/wikipedia/tr/d/d0/Samsunspor_Kul%C3%BCb%C3%BC_Logosu.png' },
                 { id: 6, name: 'Çankırı İl Özel İdaresi', captain: 'Krakiler', players: ['Algan','Asta','Dokungaç','Dwn1s','Firikinuks','Sabo'], budget:119, logo: 'img/2y.png' }
             ];
+             const season4TeamsData = [
+            // Fikstürdeki ID'lere göre sıralanmıştır.
+            { id: 1, name: 'Borussia Dortmund', captain: 'Belirlenmedi', players: [], budget: 0, logo: 'img/dortmund.png' },
+            { id: 2, name: 'Leicester City', captain: 'Belirlenmedi', players: [], budget: 0, logo: 'img/leicester.png' },
+            { id: 3, name: 'Bank Asya Bekir Demirspor', captain: 'Belirlenmedi', players: [], budget: 0, logo: 'img/bekir.png' },
+            { id: 4, name: 'İlave TV Pendikspor', captain: 'Belirlenmedi', players: [], budget: 0, logo: 'https://upload.wikimedia.org/wikipedia/tr/2/2e/Pendikspor.png' },
+            { id: 5, name: 'Atlantic FC', captain: 'Belirlenmedi', players: [], budget: 0, logo: 'img/atlantic.png' },
+            { id: 6, name: 'Gençlerbirliği', captain: 'Belirlenmedi', players: [], budget: 0, logo: 'img/gencler.png' },
+            { id: 7, name: 'Efsane Malatyaspor SK', captain: 'Belirlenmedi', players: [], budget: 0, logo: 'img/malatya.png' },
+            { id: 8, name: 'LOSC Lille', captain: 'Belirlenmedi', players: [], budget: 0, logo: 'img/losc.png' },
+        ];
 
             const eurocup23TeamsData = [
                 { id: 1, name: 'Almanya', captain: 'Anastasios Bakasetas', players: ['Player A', 'Player B'], logo: 'https://images.emojiterra.com/google/noto-emoji/unicode-16.0/color/svg/1f1e9-1f1ea.svg',},
@@ -86,6 +97,87 @@
                 { week: 10, homeTeamId: 1, awayTeamId: 3, homeScore: 0, awayScore: 3, status: 'Oynandı', date: 'Belirsiz' },
     
             ];
+
+            const season4FixturesData = [
+                // 1: Borussia Dortmund
+// 2: Leicester city
+// 3: Bank Asya Bekir Demirspor
+// 4: İlave TV Pendikspor
+// 5: Atlantic FC
+// 6: Gençlerbirliği
+// 7: Efsane Malatyaspor SK
+// 8: LOSC Lille
+    // HAFTA 1
+    { week: 1, homeTeamId: 1, awayTeamId: 2, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    { week: 1, homeTeamId: 3, awayTeamId: 4, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    { week: 1, homeTeamId: 5, awayTeamId: 6, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    { week: 1, homeTeamId: 7, awayTeamId: 8, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    // HAFTA 2
+    { week: 2, homeTeamId: 2, awayTeamId: 8, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    { week: 2, homeTeamId: 6, awayTeamId: 7, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    { week: 2, homeTeamId: 4, awayTeamId: 5, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    { week: 2, homeTeamId: 1, awayTeamId: 3, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    // HAFTA 3
+    { week: 3, homeTeamId: 3, awayTeamId: 2, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    { week: 3, homeTeamId: 8, awayTeamId: 6, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    { week: 3, homeTeamId: 7, awayTeamId: 4, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    { week: 3, homeTeamId: 5, awayTeamId: 1, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    // HAFTA 4
+    { week: 4, homeTeamId: 3, awayTeamId: 5, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    { week: 4, homeTeamId: 4, awayTeamId: 8, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    { week: 4, homeTeamId: 2, awayTeamId: 6, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    { week: 4, homeTeamId: 1, awayTeamId: 7, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    // HAFTA 5
+    { week: 5, homeTeamId: 8, awayTeamId: 1, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    { week: 5, homeTeamId: 5, awayTeamId: 2, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    { week: 5, homeTeamId: 6, awayTeamId: 4, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    { week: 5, homeTeamId: 7, awayTeamId: 3, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    // HAFTA 6
+    { week: 6, homeTeamId: 5, awayTeamId: 7, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    { week: 6, homeTeamId: 3, awayTeamId: 8, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    { week: 6, homeTeamId: 1, awayTeamId: 6, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    { week: 6, homeTeamId: 2, awayTeamId: 4, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    // HAFTA 7
+    { week: 7, homeTeamId: 4, awayTeamId: 1, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    { week: 7, homeTeamId: 6, awayTeamId: 3, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    { week: 7, homeTeamId: 8, awayTeamId: 5, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    { week: 7, homeTeamId: 7, awayTeamId: 2, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    // HAFTA 8
+    { week: 8, homeTeamId: 8, awayTeamId: 7, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    { week: 8, homeTeamId: 6, awayTeamId: 5, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    { week: 8, homeTeamId: 2, awayTeamId: 1, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    { week: 8, homeTeamId: 4, awayTeamId: 3, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    // HAFTA 9
+    { week: 9, homeTeamId: 3, awayTeamId: 1, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    { week: 9, homeTeamId: 7, awayTeamId: 6, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    { week: 9, homeTeamId: 5, awayTeamId: 4, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    { week: 9, homeTeamId: 8, awayTeamId: 2, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    // HAFTA 10
+    { week: 10, homeTeamId: 6, awayTeamId: 8, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    { week: 10, homeTeamId: 2, awayTeamId: 3, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    { week: 10, homeTeamId: 1, awayTeamId: 5, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    { week: 10, homeTeamId: 4, awayTeamId: 7, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    // HAFTA 11
+    { week: 11, homeTeamId: 5, awayTeamId: 3, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    { week: 11, homeTeamId: 7, awayTeamId: 1, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    { week: 11, homeTeamId: 8, awayTeamId: 4, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    { week: 11, homeTeamId: 6, awayTeamId: 2, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    // HAFTA 12
+    { week: 12, homeTeamId: 2, awayTeamId: 5, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    { week: 12, homeTeamId: 4, awayTeamId: 6, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    { week: 12, homeTeamId: 1, awayTeamId: 8, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    { week: 12, homeTeamId: 3, awayTeamId: 7, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    // HAFTA 13
+    { week: 13, homeTeamId: 8, awayTeamId: 3, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    { week: 13, homeTeamId: 6, awayTeamId: 1, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    { week: 13, homeTeamId: 7, awayTeamId: 5, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    { week: 13, homeTeamId: 4, awayTeamId: 2, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    // HAFTA 14
+    { week: 14, homeTeamId: 2, awayTeamId: 7, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    { week: 14, homeTeamId: 5, awayTeamId: 8, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    { week: 14, homeTeamId: 3, awayTeamId: 6, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+    { week: 14, homeTeamId: 1, awayTeamId: 4, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+];
             const season1FixturesData = [
                { week: 1, homeTeamId: 3, awayTeamId: 4, homeScore: 11, awayScore: 3, status: 'Oynandı'}, // Çankırı 1 Fenerkusen 2 Sokan 3 Seçkin 4 Samsun 5
                { week: 1, homeTeamId: 1, awayTeamId: 2, homeScore: 3, awayScore: 2, status: 'Oynandı'},
@@ -571,9 +663,14 @@
                 } else if (season === '2') {
                     fixturesData = season2FixturesData;
                     teamsData = season2TeamsData;
-                } else {
+                } else if (season == '3')
+                {
                     fixturesData = season3FixturesData;
                     teamsData = season3TeamsData;
+                }
+                else{
+                    fixturesData = season4FixturesData;
+                    teamsData = season4TeamsData;
                 }
                 const standings = calculateStandings(teamsData, fixturesData);
                 const tableBody = document.getElementById('standings-table-body');
@@ -615,9 +712,14 @@
         } else if (season === '2') {
             fixturesData = season2FixturesData;
             teamsData = season2TeamsData;
-        } else {
+        } else if (season === '3') {
             fixturesData = season3FixturesData;
             teamsData = season3TeamsData;
+        }
+        else{
+            fixturesData = season4FixturesData;
+            teamsData = season4TeamsData;
+
         }
 
         const container = document.getElementById('fixtures-container');
@@ -788,7 +890,7 @@
                 const container = document.getElementById('teams-container');
                 container.innerHTML = '';
 
-                season3TeamsData.forEach(team => {
+                season4TeamsData.forEach(team => {
                     const card = `
                         <div class="bg-gray-800 rounded-xl shadow-lg p-6 text-center border border-gray-700 transition-all duration-300 hover:border-blue-500 hover:shadow-blue-500/20 transform hover:-translate-y-1">
                             <div class="flex justify-center mb-4">
