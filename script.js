@@ -415,7 +415,7 @@
 
                 // Atlantic FC (Team ID: 5)
                 { id: 25, name: 'Jurjur', teamId: 5, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0},
-                { id: 26, name: 'Leviosa', teamId: 5, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0},
+                { id: 26, name: 'Leviosa', teamId: 5, goals: 1, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0},
                 { id: 27, name: 'Omewii', teamId: 5, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0},
                 { id: 28, name: 'Panci', teamId: 5, goals: 0, assists: 1, cleanSheets: 0, yellowCards: 0, redCards: 0},
                 { id: 29, name: 'Phyzedd', teamId: 5, goals: 1, assists: 1, cleanSheets: 0, yellowCards: 0, redCards: 0},
