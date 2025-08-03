@@ -31,14 +31,14 @@
             ];
              const season4TeamsData = [
             // Fikstürdeki ID'lere göre sıralanmıştır.
-            { id: 1, name: 'Borussia Dortmund', captain: 'Belirlenmedi', players: [], budget: 0, logo: 'img/dortmund.png' },
-            { id: 2, name: 'Leicester City', captain: 'Belirlenmedi', players: [], budget: 0, logo: 'img/leicester.png' },
-            { id: 3, name: 'Bank Asya Bekir Demirspor', captain: 'Belirlenmedi', players: [], budget: 0, logo: 'img/bekir.png' },
-            { id: 4, name: 'İlave TV Pendikspor', captain: 'Belirlenmedi', players: [], budget: 0, logo: 'https://upload.wikimedia.org/wikipedia/tr/2/2e/Pendikspor.png' },
-            { id: 5, name: 'Atlantic FC', captain: 'Belirlenmedi', players: [], budget: 0, logo: 'img/atlantic.png' },
-            { id: 6, name: 'Gençlerbirliği', captain: 'Belirlenmedi', players: [], budget: 0, logo: 'img/gencler.png' },
-            { id: 7, name: 'Efsane Malatyaspor SK', captain: 'Belirlenmedi', players: [], budget: 0, logo: 'img/malatya.png' },
-            { id: 8, name: 'LOSC Lille', captain: 'Belirlenmedi', players: [], budget: 0, logo: 'img/losc.png' },
+            { id: 1, name: 'Borussia Dortmund', captain: 'Auren', players: ['Forzz','Jonas Urbig','tuna de dieu','Wyfss','Reco'], budget: 50, logo: 'img/dortmund.png' },
+            { id: 2, name: 'Leicester City', captain: 'Pavi', players: ['Muleka','Mustafa','Old Boy','Mssygt'], budget: 50, logo: 'img/leicester.png' },
+            { id: 3, name: 'Bank Asya Bekir Demirspor', captain: 'Bahamonde', players: ['Egehenry','Elkeson','Tolgamer','Jux','Hektör','Taşkafa'], budget: 50, logo: 'img/bekir.png' },
+            { id: 4, name: 'İlave TV Pendikspor', captain: 'Butto', players: ['Ataalp','Takoz','Firikinuks','Croqs','EliasTrion'], budget: 150, logo: 'https://upload.wikimedia.org/wikipedia/tr/2/2e/Pendikspor.png' },
+            { id: 5, name: 'Atlantic FC', captain: 'Jurjur', players: ['Leviosa','Omewii','Panci','Phyzedd','Redweqx'], budget: 50, logo: 'img/atlantic.png' },
+            { id: 6, name: 'Gençlerbirliği', captain: 'Shuzky', players: ['Dokungaç','Dewonie','Fabi','Hadros','Hash','Sweix'], budget: 50, logo: 'img/gencler.png' },
+            { id: 7, name: 'Efsane Malatyaspor SK', captain: 'Deccal', players: ['Arcey','m1nq','Waldy','Westia'], budget: 50, logo: 'img/malatya.png' },
+            { id: 8, name: 'LOSC Lille', captain: 'Waffle', players: ['Beltran','Dodo','Sabo','Krakiler'], budget: 50, logo: 'img/losc.png' },
         ];
 
             const eurocup23TeamsData = [
