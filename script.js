@@ -109,7 +109,7 @@
             // 8: LOSC Lille
                 // HAFTA 1
                 { week: 1, homeTeamId: 1, awayTeamId: 2, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
-                { week: 1, homeTeamId: 3, awayTeamId: 4, homeScore: 1, awayScore: 6, status: 'Oynanmadı', date: 'Belirsiz' },
+                { week: 1, homeTeamId: 3, awayTeamId: 4, homeScore: 1, awayScore: 6, status: 'Oynandı', date: 'Belirsiz' },
                 { week: 1, homeTeamId: 5, awayTeamId: 6, homeScore: 3, awayScore: 4, status: 'Oynandı', date: 'Belirsiz' },
                 { week: 1, homeTeamId: 7, awayTeamId: 8, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
                 // HAFTA 2
