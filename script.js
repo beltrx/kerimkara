@@ -109,7 +109,7 @@
             // 8: LOSC Lille
                 // HAFTA 1
                 { week: 1, homeTeamId: 1, awayTeamId: 2, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
-                { week: 1, homeTeamId: 3, awayTeamId: 4, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+                { week: 1, homeTeamId: 3, awayTeamId: 4, homeScore: 1, awayScore: 6, status: 'Oynanmadı', date: 'Belirsiz' },
                 { week: 1, homeTeamId: 5, awayTeamId: 6, homeScore: 3, awayScore: 4, status: 'Oynandı', date: 'Belirsiz' },
                 { week: 1, homeTeamId: 7, awayTeamId: 8, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
                 // HAFTA 2
@@ -398,20 +398,21 @@
 
                 // Bank Asya Bekir Demirspor (Team ID: 3)
                 { id: 12, name: 'Bahamonde', teamId: 3, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0},
-                { id: 13, name: 'Egehenry', teamId: 3, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0},
+                { id: 13, name: 'Egehenry', teamId: 3, goals: 1, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0},
                 { id: 14, name: 'Elkeson', teamId: 3, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0},
-                { id: 15, name: 'Tolgamer', teamId: 3, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0},
+                { id: 15, name: 'Tolgamer', teamId: 3, goals: 0, assists: 1, cleanSheets: 0, yellowCards: 0, redCards: 0},
                 { id: 16, name: 'Jux', teamId: 3, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0},
                 { id: 17, name: 'Hektör', teamId: 3, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0},
-                { id: 18, name: 'Taşkafa', teamId: 3, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0},
+                { id: 18, name: 'Taşkafa', teamId: 3, goals: 0, assists: 0, cleanSheets: 1, yellowCards: 0, redCards: 0},
                 
                 // İlave TV Pendikspor (Team ID: 4)
                 { id: 19, name: 'Butto', teamId: 4, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0},
-                { id: 20, name: 'Ataalp', teamId: 4, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0},
+                { id: 20, name: 'Ataalp', teamId: 4, goals: 1, assists: 2, cleanSheets: 0, yellowCards: 0, redCards: 0},
                 { id: 21, name: 'Takoz', teamId: 4, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0},
-                { id: 22, name: 'Firikinuks', teamId: 4, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0},
+                { id: 22, name: 'Firikinuks', teamId: 4, goals: 2, assists: 2, cleanSheets: 0, yellowCards: 0, redCards: 0},
                 { id: 23, name: 'Croqs', teamId: 4, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0},
                 { id: 24, name: 'EliasTrion', teamId: 4, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0},
+                { id: 48, name: 'Schatz', teamId: 4, goals: 3, assists: 1, cleanSheets: 0, yellowCards: 0, redCards: 0},
 
                 // Atlantic FC (Team ID: 5)
                 { id: 25, name: 'Jurjur', teamId: 5, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0},
