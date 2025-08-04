@@ -394,7 +394,7 @@
                 { id: 8, name: 'Muleka', teamId: 2, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0},
                 { id: 9, name: 'Mustafa', teamId: 2, goals: 0, assists: 0, cleanSheets: 1, yellowCards: 0, redCards: 0},
                 { id: 10, name: 'Old Boy', teamId: 2, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0},
-                { id: 11, name: 'Mssygt', teamId: 2, goals: 2, assists: 2, cleanSheets: 0, yellowCards: 0, redCards: 0},
+                { id: 11, name: 'Mssygt', teamId: 2, goals: 4, assists: 2, cleanSheets: 0, yellowCards: 0, redCards: 0},
 
                 // Bank Asya Bekir Demirspor (Team ID: 3)
                 { id: 12, name: 'Bahamonde', teamId: 3, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0},
