@@ -392,7 +392,7 @@
                 // Leicester City (Team ID: 2)
                 { id: 7, name: 'Pavi', teamId: 2, goals: 0, assists: 3, cleanSheets: 0, yellowCards: 0, redCards: 0},
                 { id: 8, name: 'Muleka', teamId: 2, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0},
-                { id: 9, name: 'Mustafa', teamId: 2, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0},
+                { id: 9, name: 'Mustafa', teamId: 2, goals: 0, assists: 0, cleanSheets: 1, yellowCards: 0, redCards: 0},
                 { id: 10, name: 'Old Boy', teamId: 2, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0},
                 { id: 11, name: 'Mssygt', teamId: 4, goals: 2, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0},
 
