@@ -108,7 +108,7 @@
             // 7: Efsane Malatyaspor SK
             // 8: LOSC Lille
                 // HAFTA 1
-                { week: 1, homeTeamId: 1, awayTeamId: 2, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
+                { week: 1, homeTeamId: 1, awayTeamId: 2, homeScore: 1, awayScore: 6, status: 'Oynandı', date: 'Belirsiz' },
                 { week: 1, homeTeamId: 3, awayTeamId: 4, homeScore: 1, awayScore: 6, status: 'Oynandı', date: 'Belirsiz' },
                 { week: 1, homeTeamId: 5, awayTeamId: 6, homeScore: 3, awayScore: 4, status: 'Oynandı', date: 'Belirsiz' },
                 { week: 1, homeTeamId: 7, awayTeamId: 8, homeScore: null, awayScore: null, status: 'Oynanmadı', date: 'Belirsiz' },
@@ -382,7 +382,7 @@
                 const season4PlayerStats = [
                 // Tüm oyuncuların istatistikleri sıfırlanmıştır.
                 // Borussia Dortmund (Team ID: 1)
-                { id: 1, name: 'Auren', teamId: 1, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0},
+                { id: 1, name: 'Auren', teamId: 1, goals: 1, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0},
                 { id: 2, name: 'Forzz', teamId: 1, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0},
                 { id: 3, name: 'Jonas Urbig', teamId: 1, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0},
                 { id: 4, name: 'tuna de dieu', teamId: 1, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0},
@@ -390,11 +390,11 @@
                 { id: 6, name: 'Reco', teamId: 1, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0},
 
                 // Leicester City (Team ID: 2)
-                { id: 7, name: 'Pavi', teamId: 2, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0},
+                { id: 7, name: 'Pavi', teamId: 2, goals: 0, assists: 3, cleanSheets: 0, yellowCards: 0, redCards: 0},
                 { id: 8, name: 'Muleka', teamId: 2, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0},
                 { id: 9, name: 'Mustafa', teamId: 2, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0},
                 { id: 10, name: 'Old Boy', teamId: 2, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0},
-                { id: 11, name: 'Mssygt', teamId: 2, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0},
+                { id: 11, name: 'Mssygt', teamId: 4, goals: 2, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0},
 
                 // Bank Asya Bekir Demirspor (Team ID: 3)
                 { id: 12, name: 'Bahamonde', teamId: 3, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0},
