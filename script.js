@@ -411,7 +411,7 @@
                 { id: 21, name: 'Takoz', teamId: 4, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0},
                 { id: 22, name: 'Firikinuks', teamId: 4, goals: 2, assists: 2, cleanSheets: 0, yellowCards: 0, redCards: 0},
                 { id: 23, name: 'Croqs', teamId: 4, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0},
-                { id: 24, name: 'EliasTrion', teamId: 4, goals: 0, assists: 0, cleanSheets: 0, yellowCards: 0, redCards: 0},
+                { id: 24, name: 'EliasTrion', teamId: 4, goals: 0, assists: 0, cleanSheets: 1, yellowCards: 0, redCards: 0},
                 { id: 48, name: 'Schatz', teamId: 4, goals: 3, assists: 1, cleanSheets: 0, yellowCards: 0, redCards: 0},
 
                 // Atlantic FC (Team ID: 5)
